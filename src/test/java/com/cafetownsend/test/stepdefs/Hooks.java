@@ -11,11 +11,8 @@ public class Hooks {
 
     @Before
     public void beforeAllScenario() {
-       // System.setProperty("webdriver.gecko.driver", "C:\\Users\\attdang\\Downloads\\Software\\geckodriver-v0.20.1-win64\\geckodriver.exe");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\attdang\\Downloads\\Driver\\chromedriver.exe");
-
-         driver = new ChromeDriver();
-       // driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
