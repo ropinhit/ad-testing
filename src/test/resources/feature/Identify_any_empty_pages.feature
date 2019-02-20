@@ -11,8 +11,8 @@ Feature: Testing header and footer of deerberg
 #
     Examples:
       | url                     |
-#      | https://www.deerberg.ch |
-#      | https://www.deerberg.de |
+      | https://www.deerberg.ch |
+      | https://www.deerberg.de |
       | https://www.deerberg.at |
 
 #  Scenario: debug
