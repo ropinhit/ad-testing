@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin  = {
                 "pretty",
-                "html:target/cucumber-html-report"},
+                "html:target/cucumber-html-report",
+                "json:target/cucumber.json"},
         glue = {"com.cafetownsend.test.stepdefs"},
         tags = "@a",
         features = {"src/test/resources/feature"}
